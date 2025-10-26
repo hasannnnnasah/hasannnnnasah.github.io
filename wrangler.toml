@@ -1,0 +1,9 @@
+name = "hasannnnnasah"  # Replace with your actual project name
+type = "static"
+
+[build]
+command = "bundle exec jekyll build"  # Builds Jekyll using Bundler
+directory = "_site"  # The output directory where the built site is located
+
+[env.production]
+# Optional: Add any production-specific settings if needed
